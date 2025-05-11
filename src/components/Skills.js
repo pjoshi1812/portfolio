@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const Skills = () => {
   const skillCategories = [
@@ -28,21 +27,12 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-        >
+        <div className="flex flex-col items-center">
           <h2 className="section-title">Technical Skills</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {skillCategories.map((category, index) => (
-              <motion.div
+              <div
                 key={category.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
                 className="bg-tertiary p-6 rounded-lg"
               >
                 <h3 className="text-xl font-semibold text-textPrimary mb-4">{category.title}</h3>
@@ -56,10 +46,10 @@ const Skills = () => {
                     </span>
                   ))}
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
