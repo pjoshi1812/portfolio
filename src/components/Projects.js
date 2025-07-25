@@ -3,6 +3,31 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
+      title: "Chatting Application Website - BridgeTalk",
+      description: "A real-time messaging platform built with React and Firebase, supporting user authentication, message synchronization, emoji integration, and an intuitive UI for seamless communication.",
+      technologies: ["ReactJS", "Firebase"],
+      features: [
+        "Real-time messaging",
+        "User authentication",
+        "Emoji integration",
+        "Intuitive and responsive UI"
+      ],
+      link: "#" // Replace with actual live link if available
+    },
+    {
+      title: "Jewellery Ecommerce Website: SurvarnaRup",
+      description: "A full-stack e-commerce platform for jewellery. Features include user authentication (JWT), role-based access (Admin/Client), product management, cart functionality, and PayPal payment integration.",
+      technologies: ["ReactJS", "Tailwind CSS", "Redux", "Node.js", "Express.js", "MongoDB Atlas", "JWT", "PayPal API", "imgBB"],
+      features: [
+        "JWT-based user authentication & role-based access",
+        "Admin: Manage products, categories, and users",
+        "Client: Browse, add to cart, and purchase jewellery",
+        "PayPal payment integration & secure transactions"
+      ],
+      link: "https://ecommerce-lilac-eta-50.vercel.app/"
+     
+    },
+    {
       title: "Jewellery Ecommerce Website: SurvarnaRup",
       description: "A full-stack e-commerce platform for jewellery. Features include user authentication (JWT), role-based access (Admin/Client), product management, cart functionality, and PayPal payment integration.",
       technologies: ["ReactJS", "Tailwind CSS", "Redux", "Node.js", "Express.js", "MongoDB Atlas", "JWT", "PayPal API", "imgBB"],

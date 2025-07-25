@@ -12,7 +12,8 @@ const Experience = () => {
         'Designed and developed backend systems for various projects using the PHP CodeIgniter framework.',
         'Worked on CRUD functionality to manage data efficiently.',
         'Gained expertise in AJAX, jQuery, and data validation.'
-      ]
+      ],
+      certificate: 'https://www.linkedin.com/in/prajakta-joshi-1a5002285/overlay/1726149824707/single-media-viewer/?profileId=ACoAAEU73o0BTpJhGC7ncUaX--rHA7Jl_J3QeDM'
     },
     {
       title: 'Website Development Internship',
@@ -23,7 +24,8 @@ const Experience = () => {
         'Completed a project-based internship for one month.',
         'Designed and developed two websites based on assigned tasks.',
         'Successfully completed the internship and received a certification.'
-      ]
+      ],
+      certificate: 'https://www.linkedin.com/in/prajakta-joshi-1a5002285/overlay/1726148262485/single-media-viewer/?profileId=ACoAAEU73o0BTpJhGC7ncUaX--rHA7Jl_J3QeDM'
     }
   ];
 
@@ -51,6 +53,18 @@ const Experience = () => {
                   <li key={idx}>{responsibility}</li>
                 ))}
               </ul>
+              {exp.certificate && (
+                <div className="mt-4">
+                  <a
+                    href={exp.certificate}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+                  >
+                    View Certificate
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>
