@@ -12,7 +12,7 @@ const Projects = () => {
         "Emoji integration",
         "Intuitive and responsive UI"
       ],
-      link: "#" // Replace with actual live link if available
+      link: "https://bridgetalklogin.web.app/" // Replace with actual live link if available
     },
     {
       title: "Jewellery Ecommerce Website: SurvarnaRup",
