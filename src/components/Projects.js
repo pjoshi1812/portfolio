@@ -27,19 +27,7 @@ const Projects = () => {
       link: "https://ecommerce-lilac-eta-50.vercel.app/"
      
     },
-    {
-      title: "Jewellery Ecommerce Website: SurvarnaRup",
-      description: "A full-stack e-commerce platform for jewellery. Features include user authentication (JWT), role-based access (Admin/Client), product management, cart functionality, and PayPal payment integration.",
-      technologies: ["ReactJS", "Tailwind CSS", "Redux", "Node.js", "Express.js", "MongoDB Atlas", "JWT", "PayPal API", "imgBB"],
-      features: [
-        "JWT-based user authentication & role-based access",
-        "Admin: Manage products, categories, and users",
-        "Client: Browse, add to cart, and purchase jewellery",
-        "PayPal payment integration & secure transactions"
-      ],
-      link: "https://ecommerce-lilac-eta-50.vercel.app/"
-     
-    },
+    
     {
       title: 'PG Rental System',
       description: 'Created a web platform for property owners to list PG rooms and for tenants to express interest.',
